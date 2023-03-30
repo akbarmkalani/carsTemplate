@@ -9,5 +9,4 @@
 
 
 
-
-(demoproject)[https://akbarmkalani.github.io/carsTemplate/]
+[demo project](https://akbarmkalani.github.io/carsTemplate/)
