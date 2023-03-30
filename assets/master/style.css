@@ -1,0 +1,442 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap");
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  /* slider */
+  /* find  */
+  /* find end  */
+  /* design start */
+  /* design end */
+  /* new start */
+  /* Gallery grid */
+  /* reviews end */
+  /* reviews end  */
+}
+main > section > div {
+  top: 0;
+  z-index: 900099;
+}
+main > section nav {
+  z-index: 900099;
+  height: 60px;
+  background-color: #222222 !important;
+}
+main > section nav > ul:nth-of-type(1) > li > a {
+  font-size: 20px;
+  color: white;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+main > section nav > ul:nth-of-type(1) > li > a:hover {
+  color: #f30303;
+}
+main > section nav > ul:nth-of-type(2) > li {
+  color: white;
+  position: relative;
+  transition: 0.4s;
+}
+main > section nav > ul:nth-of-type(2) > li:hover {
+  color: #f30303;
+}
+main > section nav > ul:nth-of-type(2) > li:nth-of-type(1) {
+  font-size: 23px;
+}
+main > section nav > ul:nth-of-type(2) > li:nth-of-type(1)::after {
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 6px;
+  right: 0;
+  background-color: #7b7b7b;
+  width: 1%;
+  height: 80%;
+}
+main > section nav > ul:nth-of-type(2) > li:nth-of-type(3) {
+  font-size: 23px;
+}
+main > section nav > ul:nth-of-type(2) > li:nth-of-type(3)::after {
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 6px;
+  right: 0;
+  background-color: #7b7b7b;
+  width: 1%;
+  height: 80%;
+}
+main > section nav > ul:nth-of-type(2) > li:nth-of-type(2) {
+  font-size: 23px;
+}
+main > section nav > ul:nth-of-type(2) > li:nth-of-type(2)::after {
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 6px;
+  right: 0;
+  background-color: #7b7b7b;
+  width: 1%;
+  height: 80%;
+}
+main > section nav > ul:nth-of-type(2) > li:nth-of-type(5) {
+  border: 2px solid #f30303;
+  width: 60px !important;
+  height: 100%;
+  z-index: 33;
+}
+main > section nav > ul:nth-of-type(2) > li:nth-of-type(5):hover {
+  color: #ffffff;
+}
+main > section nav > ul:nth-of-type(2) > li:nth-of-type(5)::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(212, 20, 20, 0.8705882353);
+  -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+          clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  z-index: -2;
+}
+main > .sliderTop > figure {
+  /*   position: absolute;
+    top: 0;
+    left: 0%; */
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /*  &::before{
+          content: '';
+          display: flex;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0.237);
+  } */
+}
+main > .sliderTop > figure > figcaption {
+  top: 50%;
+  left: 50%;
+  font-weight: bold;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+}
+main > .sliderTop > figure > figcaption > h2 {
+  color: #ffffff;
+  font-size: 37px;
+}
+main > .sliderTop > figure > figcaption > span {
+  font-size: 13px;
+  color: #ffffff;
+}
+main > .sliderTop > figure > figcaption > p {
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+main > .sliderTop > figure:nth-of-type(1) {
+  animation-name: para1;
+}
+main > .sliderTop > figure:nth-of-type(2) {
+  animation-name: para2;
+}
+main > .sliderTop > figure:nth-of-type(3) {
+  animation-name: para3;
+}
+main > .find > div:nth-of-type(1) > h3 {
+  color: #222222;
+}
+main > .find > div:nth-of-type(1) > p {
+  color: #7b7b7b;
+  font-size: 12px;
+}
+main > .find > div:nth-of-type(1) > p > span {
+  color: #12a110;
+}
+main > .find > div:nth-of-type(2) > section > select {
+  z-index: -1;
+  color: #7b7b7b;
+}
+main > .find > div:nth-of-type(2) > section > select > option {
+  color: #7b7b7b;
+}
+main > .design > figure {
+  transition: 0.8s ease-in-out;
+}
+main > .design > figure:hover::after {
+  content: "";
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 34, 34, 0.5764705882);
+}
+main > .design > figure > figcaption {
+  z-index: 33;
+  top: 20px;
+  left: 20px;
+}
+main > .design > figure > figcaption > div:nth-of-type(1) > h2 {
+  color: #ffffff;
+}
+main > .design > figure > figcaption > div:nth-of-type(2) {
+  transition: transform 0.8s ease-in-out;
+  transform: translateY(100%);
+}
+main > .design > figure > figcaption > div:nth-of-type(2) > p {
+  color: #ffffff;
+}
+main > .design > figure > figcaption > div:nth-of-type(2) > .btn2 {
+  color: #151414;
+  background-color: #f3f3f3;
+  border: 2px solid #ecebeb;
+  transition: 1s;
+}
+main > .design > figure > figcaption > div:nth-of-type(2) > .btn2 > i {
+  margin-left: 10px;
+}
+main > .design > figure > figcaption > div:nth-of-type(2) > .btn2:hover {
+  color: #f5f5f5;
+  background-color: rgba(243, 3, 3, 0);
+}
+main .new > div > section:nth-of-type(1) > h3 {
+  font-size: 23px;
+}
+main .new > div > section:nth-of-type(1) > p {
+  color: #7b7b7b;
+}
+main .new > div > section:nth-of-type(2) > div > figure > figcaption > div:nth-of-type(1) > i {
+  color: #7b7b7b;
+}
+main .new > div > section:nth-of-type(2) > div > figure > figcaption > div:nth-of-type(2) > span:nth-of-type(2) {
+  font-size: 11px;
+  color: #7b7b7b;
+  text-decoration: line-through;
+}
+main .new > div > section:nth-of-type(2) > div > figure > figcaption > div:nth-of-type(3) > span {
+  transition: 0.4s;
+  width: 50px !important;
+}
+main .new > div > section:nth-of-type(2) > div > figure > figcaption > div:nth-of-type(3) > span:nth-of-type(1) {
+  transform: translateX(-300%);
+  transition: transform 0.8s ease-in-out;
+}
+main .new > div > section:nth-of-type(2) > div > figure > figcaption > div:nth-of-type(3) > span:nth-of-type(2) {
+  transform: translateX(300%);
+  transition: transform 0.8s ease-in-out;
+}
+main > .design > div > section > figure:nth-of-type(1) {
+  background-image: url("../img/img41.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main > .design > div > section > figure:nth-of-type(1)::after {
+  content: "";
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 34, 34, 0.5882352941);
+}
+main > .design > div > section > figure:nth-of-type(1) > figcaption {
+  z-index: 4;
+}
+main > .design > div > section > figure:nth-of-type(1) > figcaption > h2 {
+  color: #ffffff;
+}
+main > .design > div > section > figure:nth-of-type(1) > figcaption p {
+  color: #ffffff;
+}
+main > .gallery > div {
+  flex-wrap: wrap;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+main > .gallery > div > figure {
+  overflow: hidden;
+  transition: transform 0.8s ease-in-out;
+}
+main > .gallery > div > figure > span {
+  text-align: center;
+  background-color: rgba(16, 16, 16, 0.6431372549);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateX(-300%);
+  transition: transform 0.8s ease-in-out;
+}
+main > .gallery > div > figure > span > i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  color: #ddd;
+  font-size: 23px;
+  background-color: #f30303;
+}
+main > .gallery > div > figure:nth-of-type(3) {
+  grid-column: 3/span 2;
+}
+main > .gallery > div > figure:nth-of-type(6) {
+  grid-column: 2/span 2;
+}
+main > .reviews > section > h2 {
+  font-size: 34px;
+  font-weight: bold;
+}
+main > .reviews > section > p {
+  color: #7b7b7b;
+}
+main > .reviews > div > figure > img {
+  transition: 0.4s;
+}
+main > .reviews > div > figure:hover img {
+  transform: scale(1.1);
+}
+main > .reviews > div > figure:hover figcaption > p {
+  color: #f30303;
+}
+main > .reviews > div > figure > figcaption > div > span {
+  color: #7b7b7b;
+}
+main > .reviews > div > figure > figcaption > p {
+  transition: 0.4s;
+}
+main > footer > section:nth-of-type(1) > div > span {
+  color: #bababa;
+  font-size: 35px;
+  transition: 0.4s;
+}
+main > footer > section:nth-of-type(1) > div > span:hover {
+  color: #f30303;
+}
+main > footer > section:nth-of-type(2) > figure > figcaption > p {
+  color: #bababa;
+}
+main > footer > section:nth-of-type(2) > div:nth-of-type(1) > ul > li > span {
+  color: #bababa;
+}
+main > footer > section:nth-of-type(2) > div:nth-of-type(2) > p {
+  color: #bababa;
+}
+main > footer > section:nth-of-type(2) > div:nth-of-type(2) > section {
+  background-color: #a2a2a2;
+  border-radius: 4px;
+}
+main > footer > section:nth-of-type(2) > div:nth-of-type(2) > section > input {
+  background: none !important;
+  border: none;
+  outline: none;
+}
+main > footer > section:nth-of-type(2) > div:nth-of-type(2) > section > i {
+  color: #ffffff;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #f30303;
+  border: 2px solid #f30303;
+  transition: 1s;
+}
+.btn > i {
+  margin-left: 10px;
+}
+.btn:hover {
+  color: #f30303;
+  background-color: rgba(243, 3, 3, 0);
+}
+
+/* para1  S */
+@keyframes para1 {
+  0%, 30% {
+    left: 0;
+  }
+  36% {
+    left: 100%;
+  }
+  36.0000001%, 96% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+/* para1 end */
+/* para2  S*/
+@keyframes para2 {
+  0%, 30% {
+    left: -100%;
+  }
+  36%, 63% {
+    left: 0;
+  }
+  69% {
+    left: 100%;
+  }
+  69.00000001%, 100% {
+    left: -100%;
+  }
+}
+/* para2 end */
+/* para3 S */
+@keyframes para3 {
+  0%, 63% {
+    left: -100%;
+  }
+  69%, 96% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+/*   degree start */
+.slider {
+  -webkit-appearance: none;
+  height: 10px;
+  border-radius: 5px;
+  background: #ddd;
+  outline: none;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f30303;
+  box-shadow: #5b5b5b;
+  cursor: pointer;
+  -webkit-clip-path: polygon(100% 0, 14% 53%, 100% 100%);
+          clip-path: polygon(100% 0, 14% 53%, 100% 100%);
+}
+
+/*   degree end  *//*# sourceMappingURL=style.css.map */
